@@ -1,0 +1,338 @@
+
+
+h1 {font-size:40px;}
+h2 {font-size:32px;}
+h3 {font-size:50px;}
+h4 {font-size:35px;}
+h5 {font-size:20px;}
+h6 {font-size:16px;}
+p {
+    font-size: 30px;
+    line-height: 1.7en;
+    margin: 10px 0;
+}
+
+.contenedor-textos {
+    margin: auto;
+    max-width: 1600px;
+    overflow: auto;
+    padding: 100px 0px;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.btn{
+    background: #0085FF;
+    color: #fff;
+    display: inline-block;
+    font-size: 40px;
+    padding: 12px 23px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 4px;
+
+}
+
+/*cabecera*/
+#cabecera {
+background-image: url(illustraciones/Group5t.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;
+height: 100vh;
+padding-left: 50px;
+display:flex;
+position: relative;
+width: 100%;
+flex-wrap: wrap;
+width: 100vmax;
+
+}
+/*.evefoto {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}*/
+#navbar {
+    position: fixed;
+    background-color:#FFA819;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+ul{
+    list-style: none;
+    text-transform: uppercase;
+    padding: 20px 
+
+    
+}
+li{
+    float: left;
+    padding: 2px 5px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+a{
+    display: block;
+    color:black;
+}
+
+.contenedornav{
+    display: flex;
+}
+/* final de head*/
+
+#pasos {
+    padding-top: 10px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.lospasos {
+    padding-top: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+    gap: 20px;
+    
+    
+
+}
+.paso {
+    background: #0085FF;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 0px;
+    padding: 10px 10px;
+    box-sizing: content-box;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+}
+#pasos h4{
+    padding-bottom: 35px;
+    padding-top: 50px;
+   
+}
+/*final pasos*/
+
+/*quien soy*/
+#quien-soy{
+    padding-bottom: 100px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;    
+}
+.contenedor-soy { 
+    flex-direction: column;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.quiensoy{
+    float: none;
+    width: 100%;
+    padding: 20px 20px;
+    min-width: 200px;
+    
+
+
+}
+.quiensoyimg{
+    float: none;
+padding-left: 30px;
+}
+.quiensoyimg img{
+    width: 100%;
+    max-width: 600px;
+}
+#quien-soy h3{
+    color: #0085FF;
+    padding-bottom: 20px;
+}
+/* termina quien soy*/
+
+/* yo te ayudo*/
+
+#ayudo{
+    display: flex;
+    height: 100%;
+    width: 100vmax;
+    background:#eeeeee;
+    color:rgb(0, 0, 0);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+.teayudo{
+float: none;
+width: 100%;
+padding-top: 20px;
+padding-right: 20px;
+min-width: 0%;
+max-width: 100vmax;
+padding-left: 30px;
+
+}
+
+.imgayudo{
+    float: none;
+    padding-left: 50px;
+}
+.imgayudo img{
+
+    max-width: 270px;
+    padding: 0px 0px;
+}
+
+/*cursos*/
+
+
+.cuadrocursos{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    
+}
+.contenedorgeneral{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100vmax;
+    gap: 50px;   
+    padding: 10px 100px;
+    
+}
+
+.cuadrocursos h3{
+    display: flex;
+    text-align: center;
+    padding-top: 25px;
+  
+width: 100vmax
+}
+.contenedorcurso{
+  
+    float: none;
+    background:#FFA819;
+    color: #fff;
+    border-radius: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding:0px 10px;
+    box-sizing:content-box;
+    width: 100%;
+    height: 600px;
+}
+/*profesiona*/
+.imgp{
+    padding-top: 30px;
+width: 30%;}
+
+.profesional{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.pprofesional{
+    padding-bottom: 50px;
+}
+.pbtn{
+    background:#fff;
+    color:black;
+    display: inline-block;
+    font-size: 50px;
+    padding: 25px 23px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+font-style: italic;
+font-weight: 600;
+line-height: 50px;
+}
+/*ventas*/
+.imgv{
+    padding-top: 30px;
+width: 30%;}
+
+.ventas{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.pventas{
+    padding-bottom: 53px;
+}
+.vbtn{
+    background:#fff;
+    color:black;
+    display: inline-block;
+    font-size: 50px;
+    padding: 25px 23px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+font-style: italic;
+font-weight: 600;
+line-height: 50px;
+}
+/*upgrade*/
+.imgu{
+    padding-top: 20px;
+width: 25%;}
+
+.upgrade{
+    padding-top: 25px;
+    padding-bottom: 17px;
+}
+
+.pupgrade{
+    padding-bottom: 30px;
+}
+.ubtn{
+    background:#fff;
+    color:black;
+    display: inline-block;
+    font-size: 50px;
+    padding: 25px 23px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+font-style: italic;
+font-weight: 600;
+line-height: 50px;
+}
+#principalfooter{
+    display: flex;
+    width: 100vmax;
+    font-family: 'Montserrat';
+font-style: italic;
+font-weight: 600;
+font-size: 36px;
+line-height: 50px;
+height: 50px;
+    width: 100vmax;
+    background:#000000;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+}
