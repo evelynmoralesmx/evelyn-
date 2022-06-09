@@ -1,0 +1,157 @@
+p {
+    font-size: 30px;
+    line-height: 1.7en;
+    margin: 10px 0;
+    padding: 0px 20px;
+}
+#contacto{
+    
+    padding-top: 200px;
+  
+
+}
+
+#contacto h3{
+padding-bottom: 100px;
+
+width: 100vmax;
+
+}
+
+.contenedormetodos{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 64px;
+    width: 100vmax;
+    padding: 0px 100px;
+}
+
+.contenedor{
+    
+    background: color #FFFFFF;
+    box-sizing: content-box;
+    width: 341px;
+height: 436px;
+box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 50px 0px;
+width: 100%;
+}
+
+.icono{
+    width: 52px;
+height: 52px;
+}
+
+.iconos{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.btn{
+    background: #0085FF;
+    color: #fff;
+    display: inline-block;
+    font-size: 25px;
+    padding: 20px 0px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 0px;
+}
+.direccion{
+    display: inline-block;
+    font-size: 22px;
+    padding: 20px 5px;
+    letter-spacing: 1px;
+    border: 1px solid #000000;
+    border-radius: 0px;
+}
+.titulos{
+    font-family: 'Montserrat';
+font-style: italic;
+font-weight: 800;
+font-size: 32px;
+line-height: 39px;
+}
+
+
+
+
+#btn-menu{
+    display: none; 
+}
+
+.imgmenu{
+    width: 70px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#btn-menu:checked ~ #navbar{
+margin: 0;
+
+}
+
+#cabecera label{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+}
+#cabecera label:hover{
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+#navbar {
+    position: absolute;
+    background-color:#FFA819;
+    height: 60%;
+    width: 70%;
+    top: 0;
+    left: 0;
+    margin-left: -70%;
+    top: 100px;
+    
+}
+ul{
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+li{
+    display: block;
+    float: none;
+    padding: 30px 5px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 10px;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+a{
+    display: block;
+    color:rgb(255, 255, 255);
+}
+
+.contenedornav{
+    display: block;
+}
